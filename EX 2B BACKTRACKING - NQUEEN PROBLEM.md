@@ -5,13 +5,14 @@ To solve the N-Queen problem using backtracking, which places N queens on an N*N
 
 
 ## Algorithm
+```
 1. Initialize an N x N board with all zeros.
 2.Try placing a queen in each column, one by one.
 3.For each placement, check if it's safe (no queen in the same row, column, or diagonal).
 4.If safe, recursively attempt to place queens in the next column.
 5.If all queens are placed successfully, print the solution; otherwise, backtrack and try the next possibility.
    
-
+```
 ## Program:
 ```
 /*
