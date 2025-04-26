@@ -5,13 +5,14 @@ To implement the Rat in a Maze problem using backtracking and find all possible 
 
 
 ## Algorithm
+```
 1. Initialize a solution matrix with zeros.
 2.Start at the top-left corner and recursively explore possible paths.
 3.Check if moving to a cell is safe (within bounds and open).
 4.If reaching the bottom-right corner, mark the cell as part of the path.
 5.If a path is found, print the solution matrix; otherwise, backtrack and return "Solution doesn't exist."
   
-
+```
 ## Program:
 ```
 /*
